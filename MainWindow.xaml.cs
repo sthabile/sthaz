@@ -45,7 +45,7 @@ namespace hours
             int mas = b % 60;//minutes for the selected activity
 
 
-            if (item == "eating")
+            if (item != "eating")
             {
               //display number of hours and minutes in the each textbox 
                 textBox1.Text = sn + " " + "hours" + " " + mas + " " + "minutes";
